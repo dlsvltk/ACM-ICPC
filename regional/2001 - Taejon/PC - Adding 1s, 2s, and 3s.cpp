@@ -1,3 +1,6 @@
+//number of n consits of 1,2, and 3 (add)
+//base case 1,2,3 and step by step f(n) = f(n-1) + f(n-2) + f(n-3)
+//becasue f(n) is n-1 + 1 or n-2 + 2 or n-3 + 3  
 #include <iostream>
 #include <math.h>
 using namespace std;
@@ -17,3 +20,4 @@ int main(){  
 		cout << name(number[i]) << endl;   
 	return 0;
 }
+//BOJ 9095
