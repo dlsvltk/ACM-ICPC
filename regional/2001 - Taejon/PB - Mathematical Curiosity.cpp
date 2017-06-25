@@ -1,3 +1,5 @@
+//count pair(a,b) for (a^2+b^2+m)/ab is an integer and 0<a<b<n given n,m
+//just all search pair(a,b) satisfiy (a^2+b^2+m)/ab is an integer // O(n^2) <- n<=100
 #include <iostream>
 using namespace std;
 int main(){   int n;   int a, b;   int cnt = 0;
@@ -8,3 +10,4 @@ int main(){   int n;   int a, b;   int cnt = 0;
         cout << cnt << endl;      cnt = 0;
     }
 }
+//BOJ 9094
