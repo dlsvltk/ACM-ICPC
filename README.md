@@ -1,2 +1,4 @@
 # ACM-ICPC
-ssiibbaall
+store the problem codes
+
+and comments
