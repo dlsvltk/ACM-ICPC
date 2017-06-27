@@ -23,7 +23,6 @@ int main() {
 					bypass.pop();
 					counter++;
 				}
-				continue;
 			}
 			else {
 				while (!bypass.empty() && bypass.front() == counter) {
@@ -32,7 +31,6 @@ int main() {
 				}
 				if (counter == input) {
 					counter++;
-					continue;
 				}
 				else {
 					bypass.push(input);
